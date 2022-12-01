@@ -1,0 +1,64 @@
+.Btn {
+    font-size: 25px;
+    color: #fff;
+    background-color: #f9004d;
+    width: 400px;
+    height: 150px;
+    margin: 30px;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.mainClass{
+    text-align: center;
+    padding-top: 50px;
+}
+.classPadding{
+    padding: 20px;
+}
+.clild {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: -14px;
+    right: -12px;
+    background-color: rgb(248, 245, 245);
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 900px;
+    margin: 0px auto;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+th,td{
+    padding: 15px;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-bg1{
+  background-color: green;
+}
+.btn-bg2{
+    background-color: red;
+}
